@@ -165,13 +165,18 @@ html {
 }
 
 .round-cointainer-profile-img {
-
+  margin-top: 6rem;
+  position: absolute;
 }
 
 .profile-img {
   height: 25rem;
   width: 25rem;
   border: 2px solid white;
+}
+
+.social-icons {
+  margin-top: 13rem;
 }
 
 .social-icons a {
