@@ -187,3 +187,10 @@ html {
   height: 5rem;
   width: 5rem;
 }
+
+/* Header */
+
+.h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
