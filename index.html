@@ -15,9 +15,9 @@
     <input class="menu-btn" type="checkbox" id="menu-btn"/>
     <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
     <ul class="menu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">My Projects</a></li>
-      <li><a href="#">Contact Me</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="project-detail.html">My Projects</a></li>
+      <li><a href="contact.html">Contact Me</a></li>
     </ul>
   </nav>
 
@@ -27,9 +27,9 @@
       <img class="profile-img" src="https://www.olondriz.com/wp-content/uploads/2016/09/pablo-olondriz-blog.jpg" alt="pablo olondriz">
     </div>
     <div class="social-icons">
-      <a href="#"><img src="/images/icon-github2.png" alt="github"></a>
-      <a href="#"><img src="images/icon-linkedin.png" alt="linkedin"></a>
-      <a href="#"><img src="images/icon-wordpress.png" alt="wordpress"></a>
+      <a href="https://github.com/Pablolo" target="_blank"><img src="images/icon-github2.png" alt="github"></a>
+      <a href="http://linkedin.com/in/pablolondriz" target="_blank"><img src="images/icon-linkedin.png" alt="linkedin"></a>
+      <a href="https://www.olondriz.com/" target="_blank"><img src="images/icon-wordpress.png" alt="wordpress"></a>
     </div>
   </header>
 
@@ -38,40 +38,51 @@
     <h3 class="h3-main">Browse here some of my projects:</h3>
     <section class="main-portfolio">
       <article class="portfolio-item">
-        <img class="web-screenshot" src="images/legis music screenshot.png" alt="legis music screenshot">
-            <h3 class="portfolio-title">Legis Music</h3>
-            <p class="portfolio-description">Website dedicated to Royalty-Free Music</p>
+        <a class="portfolio-link" href="https://legismusic.com/" target="_blank">
+          <img class="web-screenshot" src="images/legis music screenshot.png" alt="legis music screenshot">
+          <h3 class="portfolio-title">Legis Music</h3>
+          <p class="portfolio-description">Website dedicated to Royalty-Free Music</p>
+        </a>
       </article>
       <article class="portfolio-item">
-        <img class="web-screenshot" src="images/micripto screenshot.png" alt="micripto screenshot">
+        <a class="portfolio-link" href="https://www.micripto.com/" target="_blank">
+          <img class="web-screenshot" src="images/micripto screenshot.png" alt="micripto screenshot">
           <h3 class="portfolio-title">Micripto</h3>
           <p class="portfolio-description">Website dedicated to Bitcoin & cryptocurrencies</p>
+        </a>
       </article>
       <article class="portfolio-item portfolio-item-last">
-        <img class="web-screenshot" src="images/olondriz com screenshot.png" alt="olondriz screenshot">
+        <a class="portfolio-link" href="https://olondriz.com" target="_blank">
+          <img class="web-screenshot" src="images/olondriz com screenshot.png" alt="olondriz screenshot">
           <h3 class="portfolio-title">Olondriz.com</h3>
           <p class="portfolio-description">My own personal blog, since 2010</p>
+        </a>
       </article>
-      <button class="btn btn-2 btn-2b">Load More Projects</button>
     </section>
+    <a href="project-detail.html"><button class="btn btn-2 btn-2b">View All Projects</button></a>
   </main>
 
   <footer class="footer">
     <section class="up-footer">
       <div class="footer-box">
         <h4 class="footer-title">ABOUT ME</h4>
-        <p class="footer-text">Online entrepreneur, author and Full Stack Developer. Through my professional career, I had the opportunity to dive deep on SEO, Wordpress, Copywiting and web technologies like HTML, CSS, Javascript, Nodejs and React. I'm passionate about the creation from scratch of any online project!</p>
+        <hr class="footer-separator">
+        <p class="footer-text">Online entrepreneur, author and Full Stack Developer. Through my professional career, I had the opportunity to dive deep on SEO, Wordpress, Copywiting and web technologies like HTML, CSS, Javascript, Nodejs and React. I'm passionate about the creation of projects from scratch!</p>
       </div>
-      <div class="footer-box">
+      <div class="footer-box footer-sitemap">
         <h4 class="footer-title">SITE</h4>
         <ul class="footer-list">
-          <li>My Projects</li>
-          <li>Contact Me</li>
-          <li>Blog</li>
+          <b>
+            <li class="footer-list-item"><a href="project-detail.html">My Projects</a></li>
+            <li class="footer-list-item"><a href="contact.html">Contact Me</a></li>
+            <li class="footer-list-item"><a href="https://olondriz.com" target="_blank">Blog</a></li>
+            <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
+          </b>
         </ul>
       </div>
       <div class="footer-box">
         <h4 class="footer-title">CONTACT NOW</h4>
+        <hr class="footer-separator">
         <p class="footer-text">You can contact me sending an email to <b>pablo@olondriz.com</b> or through some social media channels as LinkedIn or Instagram. You can also browse my Github account.</p>
       </div>
     </section>
