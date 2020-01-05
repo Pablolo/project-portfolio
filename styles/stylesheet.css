@@ -302,7 +302,7 @@ html {
 
 @media (min-width: 48em) {
   .main-portfolio {
-    max-width: 90vw;
+    max-width: 95vw;
     margin-top: 3rem;
     display: flex;
     flex-direction: row;
