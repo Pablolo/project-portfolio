@@ -232,6 +232,10 @@ html {
   margin-bottom: 6rem;
 }
 
+.portfolio-item-last {
+  margin-bottom: 4rem;
+}
+
 .portfolio-title {
   font-size: 2.5rem;
   font-weight: bold;
@@ -242,13 +246,63 @@ html {
   font-size: 1.5rem;
 }
 
+.btn {
+	border: none;
+	font-family: inherit;
+	font-size: 1.5rem;
+	color: inherit;
+	background: none;
+	cursor: pointer;
+	padding: 25px 20px;
+	display: inline-block;
+	margin: 0px 40px 40px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.btn-2 {
+	background: #f39c12;
+	color: #fff;
+	box-shadow: 0 6px #e67e22;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+.btn-2b {
+	border-radius: 0 0 5px 5px;
+}
+
+.btn-2b:hover {
+	box-shadow: 0 8px #e67e22;
+	top: -2px;
+}
+
+.btn-2b:active {
+	box-shadow: 0 0 #e67e22;
+	top: 6px;
+}
 
 /* Footer */
 
 .up-footer {
-  height: 20rem;
   background-color: #34495e;
   color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.footer-box {
+  width: 90vw;
+  margin: 1rem 0;
 }
 
 .subfooter {
@@ -259,6 +313,13 @@ html {
 .footer-title {
   font-size: 1.8rem;
   font-weight: bold;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.footer-text {
+  font-size: 1.3rem;
 }
 
 b {
