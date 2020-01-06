@@ -300,6 +300,22 @@ html {
 	top: 6px;
 }
 
+/* Main: Projects Page */
+
+.main-projects-page {
+  margin-top: 0rem;
+}
+
+.h1-projects-page {
+  margin-top: 12rem;
+}
+
+.main-portfolio-projects-page {
+  margin-bottom: 4rem;
+}
+
+/* Main: media queries */
+
 @media (min-width: 48em) {
   .main-portfolio {
     max-width: 95vw;
