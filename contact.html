@@ -24,13 +24,15 @@
   <main class="main main-projects-page">
     <h1 class="h1 h1-projects-page">Contact Me</h1>
     <section class="contact-main-section">
-      <img class="profile-img contact-img" src="https://www.olondriz.com/wp-content/uploads/2016/09/pablo-olondriz-blog.jpg" alt="pablo olondriz">
-      <p class="contact-description">You can contact me at anytime sending an email to <b> pablo@olondriz.com</b> or simply filling this form below. I will reply to you very soon!</p>
-      <div class="container">
+      <div class="contact-info">
+        <img class="profile-img contact-img" src="https://www.olondriz.com/wp-content/uploads/2016/09/pablo-olondriz-blog.jpg" alt="pablo olondriz">
+        <p class="contact-description">You can contact me at anytime sending an email to <b> pablo@olondriz.com</b> or simply filling this form below. I will reply to you very soon!</p>
+      </div>
+      <div class="contact-form">
         <form action="/">
           <div class="row">
             <div class="col-25">
-              <label for="name">Name</label>
+              <label class="label" for="name">Name</label>
             </div>
             <div class="col-75">
               <input type="text" id="name" name="name" placeholder="Your name">
@@ -38,7 +40,7 @@
           </div>
           <div class="row">
             <div class="col-25">
-              <label for="email">Email</label>
+              <label class="label" for="email">Email</label>
             </div>
             <div class="col-75">
               <input type="text" id="email" name="email" placeholder="Your email">
@@ -46,14 +48,14 @@
           </div>
           <div class="row">
             <div class="col-25">
-              <label for="subject">Message</label>
+              <label class="label" for="subject">Message</label>
             </div>
             <div class="col-75">
-              <textarea id="subject" name="subject" placeholder="Your message here..." style="height:200px"></textarea>
+              <textarea class="textarea" id="subject" name="subject" placeholder="Your message here..." style="height:200px"></textarea>
             </div>
           </div>
           <div class="row">
-            <input type="submit" value="Submit">
+            <input class="contact-form-submit" type="submit" value="Send Message">
           </div>
         </form>
       </div>
