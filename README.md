@@ -4,13 +4,17 @@
 
 ## Introduction
 
-This website includes all the online projects I have created over time. 
+This website includes all the online projects I have created over time. You can visit it live [here.](https://www.portfolio.olondriz.com)
 
-It has 3 pages: 
+## Pages
+
+Right now, it has 3 pages: 
 
 1. Home
 2. Projects
 3. Contact
+
+## HTML Sections
 
 Their main sections in HTML are:
 
@@ -21,6 +25,8 @@ Their main sections in HTML are:
 * Main
 * Footer
 
+## Development and Hosting
+
 For the moment, it uses only HTML and CSS, without Javascript. 
-It's been developed using the "mobile first" approach and has some media queries to make it properly responsive.
+It's been developed using the "mobile first" approach and has some media queries to make it properly responsive. Its hosted freely on [Netlify] (https://www.netlify.com/), linked to this same Github repository.
 
