@@ -28,5 +28,5 @@ Their main sections in HTML are:
 ## Development and Hosting
 
 For the moment, it uses only HTML and CSS, without Javascript. 
-It's been developed using the "mobile first" approach and has some media queries to make it properly responsive. Its hosted freely on [Netlify] (https://www.netlify.com/), linked to this same Github repository.
+It's been developed using the "mobile first" approach and has some media queries to make it properly responsive. Its hosted freely on [Netlify](https://www.netlify.com/), linked to this same Github repository.
 
