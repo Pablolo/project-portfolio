@@ -8,9 +8,9 @@ This website includes all the online projects I have created over time.
 
 It has 3 pages: 
 
-* Home
-* Projects
-* Contact
+1. Home
+2. Projects
+3. Contact
 
 Their main sections in HTML are:
 
@@ -21,5 +21,6 @@ Their main sections in HTML are:
 * Main
 * Footer
 
-For the moment, it uses only HTML and CSS, without Javascript.
+For the moment, it uses only HTML and CSS, without Javascript. 
+It's been developed using the "mobile first" approach and has some media queries to make it properly responsive.
 
