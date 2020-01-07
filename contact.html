@@ -23,28 +23,40 @@
 
   <main class="main main-projects-page">
     <h1 class="h1 h1-projects-page">Contact Me</h1>
-    <section>
-      <img class="profile-img" src="https://www.olondriz.com/wp-content/uploads/2016/09/pablo-olondriz-blog.jpg" alt="pablo olondriz">
-      <p>You can contact me at anytime sending an email to pablo@olondriz.com or simply filling this form. I will reply you very soon!</p>
-      <form action="/" method="post">
-        <ul>
-        <li>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="user_name">
-        </li>
-        <li>
-          <label for="mail">E-mail:</label>
-          <input type="email" id="mail" name="user_mail">
-        </li>
-        <li>
-          <label for="msg">Message:</label>
-          <textarea id="msg" name="user_message"></textarea>
-        </li>
-        <li class="button">
-          <button type="submit">Send your message</button>
-        </li>
-        </ul>
-      </form>
+    <section class="contact-main-section">
+      <img class="profile-img contact-img" src="https://www.olondriz.com/wp-content/uploads/2016/09/pablo-olondriz-blog.jpg" alt="pablo olondriz">
+      <p class="contact-description">You can contact me at anytime sending an email to <b> pablo@olondriz.com</b> or simply filling this form below. I will reply to you very soon!</p>
+      <div class="container">
+        <form action="/">
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="name" placeholder="Your name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="email" name="email" placeholder="Your email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Message</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Your message here..." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
     </section>
   </main>
 
